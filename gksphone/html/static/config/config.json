@@ -1,0 +1,414 @@
+{
+  "WebSiteURL" : "https://gkshop.org/",
+  "locales": "fr",
+  "NotifiKonumDebug" : false,
+  "Valebring": true,
+  "Facetime": true,
+  "GroupCall": true,
+  "MessageRecordMic": true,
+  "BottomNotif" : true,
+  "RealTime" : true,
+  "AirDrop": false,
+  "RingtoneXsound": true,
+  "JobMessageAnonymous": true,
+  "CurrencyComma" : true,
+  "GamblingGame" : true,
+  "RaceNOSPhasing": false,
+  "Race30sPhasing": true,
+  "RaceFullPhasing": true,
+  "NewsPerm" : "weazelnews",
+
+  "YellowFilter": {
+    "mechanic" : "Mechanic",
+    "bartender" : "Bartender",
+    "lawyer" : "Lawyer"
+  },
+
+  "JobApplication": {
+    "police": "Police",
+    "ambulance": "Ambulance"
+  },
+
+  "JobApplicationQuestions": {
+    "1": "Why are you applying for this job?",
+    "2": "Tell about yourself"
+  },
+
+  "JobCategory": {
+    "police" : "Deparments",
+    "ambulance" : "Ambulance",
+    "mechanic" : "Garage",
+    "resto" : "Restaurant",
+    "entreprise" : "Entreprise"
+  },
+
+ "JobMessages": [
+    {"label" : "PD", "jobname" : ["police","sheriff"], "logoname": "police", "category": "police"},
+    {"label" : "EMS", "jobname" : ["ambulance"], "logoname": "ambulance", "category": "ambulance"},
+    {"label" : "Bennys", "jobname" : ["mechanic"], "logoname": "mechanic", "category": "mechanic"},
+    {"label" : "Paleto Motors", "jobname" : ["mechanic2"], "logoname": "mechanic2", "category": "mechanic"},
+    {"label" : "LS Custom", "jobname" : ["mechanic3"], "logoname": "mechanic3", "category": "mechanic"},
+    {"label" : "Auto's Exotic", "jobname" : ["mechanic4"], "logoname": "auto_exotic", "category": "mechanic"},
+    {"label" : "Samcro", "jobname" : ["mechanic5"], "logoname": "samcro", "category": "mechanic"},
+    {"label" : "Restaurant Pearls", "jobname" : ["pearl"], "logoname": "pearl", "category": "resto"},
+    {"label" : "Pizzeria", "jobname" : ["pizzeria"], "logoname": "pizzeria", "category": "resto"},
+    {"label" : "Pop Diner", "jobname" : ["popdiner"], "logoname": "popdiner", "category": "resto"},
+    {"label" : "Burgershot", "jobname" : ["burgershot"], "logoname": "burgershot", "category": "resto"},
+    {"label" : "Tacos", "jobname" : ["tacos"], "logoname": "tacos", "category": "resto"},
+    {"label" : "Doj", "jobname" : ["juge"], "logoname": "juge", "category": "entreprise"},
+    {"label" : "Gouvernement", "jobname" : ["gouv"], "logoname": "gouv", "category": "entreprise"},
+    {"label" : "TAXI", "jobname" : ["taxi"], "logoname": "taxi", "category": "entreprise"},
+    {"label" : "Sunrise Auto", "jobname" : ["cardealer"], "logoname": "cardealer", "category": "entreprise"},
+    {"label" : "Concess Moto", "jobname" : ["cardealer2"], "logoname": "cardealer2", "category": "entreprise"},
+    {"label" : "PDW Motorsport", "jobname" : ["cardealer3"], "logoname": "cardealer3", "category": "entreprise"},
+    {"label" : "Brasserie", "jobname" : ["brasseur"], "logoname": "brasseur", "category": "entreprise"},
+    {"label" : "Agence Immobiliere", "jobname" : ["realestateagent"], "logoname": "realestateagent", "category": "entreprise"},
+    {"label" : "Distillerie", "jobname" : ["distillerie"], "logoname": "distillerie", "category": "entreprise"},
+    {"label" : "Unicorn", "jobname" : ["unicorn"], "logoname": "unicorn", "category": "entreprise"},
+    {"label" : "Vignoble", "jobname" : ["vigne"], "logoname": "vigne", "category": "entreprise"},
+    {"label" : "Tabac", "jobname" : ["tabac"], "logoname": "tabac", "category": "entreprise"},
+    {"label" : "Red River Ranch", "jobname" : ["ranch"], "logoname": "ranch", "category": "entreprise"},
+    {"label" : "Ferme O'neil", "jobname" : ["ferme_oneil"], "logoname": "ferme_oneil", "category": "entreprise"},
+    {"label" : "Paradise", "jobname" : ["paradise"], "logoname": "paradise", "category": "entreprise"}, 
+    {"label" : "Bahama mamas", "jobname" : ["bahama_mamas"], "logoname": "bahama_mamas", "category": "entreprise"}, 
+    {"label" : "Tequila-la", "jobname" : ["tequilala"], "logoname": "tequilala", "category": "entreprise"}, 
+    {"label" : "Music Locker", "jobname" : ["galaxy"], "logoname": "maison10", "category": "entreprise"}, 
+    {"label" : "Steinway", "jobname" : ["steinway"], "logoname": "Steinway", "category": "entreprise"},
+    {"label" : "BlackWood", "jobname" : ["black_wood"], "logoname": "black_wood", "category": "entreprise"},
+    {"label" : "Weazel News", "jobname" : ["weazelnews"], "logoname": "weazelnews", "category": "entreprise"},
+    {"label" : "Yellow Jack", "jobname" : ["yellow_jack"], "logoname": "yellow_jack", "category": "entreprise"},
+    {"label" : "Mosley", "jobname" : ["mosley"], "logoname": "mosley", "category": "entreprise"},
+    {"label" : "Boulangerie", "jobname" : ["boulangerie"], "logoname": "boulangerie", "category": "entreprise"},
+    {"label" : "Stickers", "jobname" : ["stickers"], "logoname": "stickers", "category": "entreprise"},
+    {"label" : "Coffee Shop", "jobname" : ["coffeeshop"], "logoname": "coffeeshop", "category": "entreprise"},
+    {"label" : "24/7 Families", "jobname" : ["ltdgroove"], "logoname": "ltdgroove", "category": "entreprise"},
+    {"label" : "City Wok", "jobname" : ["restochinois"], "logoname": "restochinois", "category": "entreprise"}
+  ],
+
+
+  "NotifiKonum": {
+    "Messages": {"top": "30px", "left": "30px"},
+    "Jobs": {"top": "80px", "left": "30px"}
+  },
+
+
+  "background": {
+    "walpaper1": "4k_wallpaper.jpg",
+    "walpaper2": "back002.jpg",
+    "walpaper3": "car.jpg",
+    "walpaper4": "fortnite_4k.jpg",
+    "walpaper5": "gta5.jpg",
+    "walpaper6": "iluminacion.jpg",
+    "walpaper7": "nature_4k_fullhd.jpg",
+    "walpaper8": "newphone.png",
+    "walpaper9": "oscuridad.jpg",
+    "walpaper10": "paisajes.jpg",
+    "walpaper11": "playa.jpg",
+    "walpaper12": "rainy_night.jpg",
+    "walpaper13": "tokio.jpg",
+    "walpaper14": "sahesiz.png"
+  },
+
+  "background_default": {
+    "label": "walpaper8",
+    "value": "newphone.png"
+  },
+
+
+
+
+  "sonido": {
+    "Astronomia": "ring.ogg",
+    "Bella Ciao": "bella_ciao.ogg",
+    "Iphone 11": "iphone_11.ogg",
+    "XXXTentacion": "xtentacion.ogg",
+    "enemysquid": "enemysquid.ogg",
+    "NoiDoi": "NoiDoi.ogg"
+  },
+
+  "sonido_default": {
+    "label": "Astronomia",
+    "value": "ring.ogg"
+  },
+
+  "coque_default": {
+    "label": "Iphonex",
+    "value": "iphonex.png"
+  },
+
+  "StarterApp" : [
+    {"name": "Info",  "categori": "social", "icons": "/html/static/img/icons/edge.png", "routeName": "IframeWeb" , "show":false},
+    {"name": "Messages",  "categori": "social", "icons": "/html/static/img/icons/messages.png", "routeName": "messages", "puceRef": "nbMessagesUnread", "show":true},
+    {"name": "Camera",    "categori": "jobs", "icons": "/html/static/img/icons/camera.png", "routeName": "photo", "show":true},
+    {"name": "Jobs",      "categori": "jobs", "icons": "/html/static/img/icons/jobm.png", "routeName": "jobm", "puceRef": "nbJobMessRead", "show":true},
+    {"name": "Mail",      "categori": "social", "icons": "/html/static/img/icons/mail.png", "routeName": "mail", "show":true},
+    {"name": "Bank",     "categori": "finance", "icons": "/html/static/img/icons/wallet.png", "routeName": "bankb", "show":true},
+    {"name": "Billing",  "categori": "finance", "icons": "/html/static/img/icons/logo.png", "routeName": "faturapages", "show":true}
+  ],
+
+  "AppStore": [
+    {
+      "name": "Twitter",
+      "icons": "/html/static/img/icons/twitter.png",
+      "categori": "social",
+      "detail": "Social Media App",
+      "routeName": "twitter.splash",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Dark Chat",
+      "icons": "/html/static/img/icons/tchat.png",
+      "categori": "social",
+      "detail": "Chat App",
+      "routeName": "tchat.channel",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Yellow Pages",
+      "icons": "/html/static/img/icons/yellow.png",
+      "categori": "social",
+      "detail": "Job find and share app",
+      "routeName": "yellowpages.show",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "News",
+      "icons": "/html/static/img/icons/haber.png",
+      "categori": "jobs",
+      "detail": "News App",
+      "routeName": "haberler.show",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "YouTube",
+      "icons": "/html/static/img/icons/youtubeicon.png",
+      "categori": "social",
+      "detail": "Youtube App",
+      "routeName": "you",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Instagram",
+      "icons": "/html/static/img/icons/instagram.png",
+      "categori": "social",
+      "detail": "Social Media App",
+      "routeName": "instagramslash",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Vale",
+      "icons": "/html/static/img/icons/vale.png",
+      "detail": "Vale App",
+      "categori": "jobs",
+      "routeName": "vale",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Games",
+      "icons": "/html/static/img/icons/games.png",
+      "detail": "Games",
+      "categori": "mix",
+      "routeName": "tetris",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Gallery",
+      "icons": "/html/static/img/icons/photos.png",
+      "detail": "Gallery App",
+      "categori": "mix",
+      "routeName": "gallery",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "GPS",
+      "icons": "/html/static/img/icons/maps.png",
+      "detail": "GPS App",
+      "categori": "mix",
+      "routeName": "gps",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Stock Market",
+      "icons": "/html/static/img/icons/stocks.png",
+      "detail": "Stock market app",
+      "categori": "finance",
+      "routeName": "borsaa",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Race",
+      "icons": "/html/static/img/icons/race.png",
+      "detail": "Race App",
+      "categori": "mix",
+      "routeName": "racea",
+      "blockedjobs": [{
+        "police": "police",
+        "ambulance": "ambulance"
+      }],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Note",
+      "icons": "/html/static/img/icons/notes.png",
+      "detail": "Note App",
+      "categori": "mix",
+      "routeName": "note",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Music",
+      "icons": "/html/static/img/icons/music2.png",
+      "detail": "Music App",
+      "categori": "mix",
+      "routeName": "musicc",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Götür",
+      "icons": "/html/static/img/icons/gotur.png",
+      "categori": "jobs",
+      "detail": "Application where you can buy food and necessities",
+      "routeName": "getir",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Ebay",
+      "icons": "/html/static/img/icons/ebay.png",
+      "categori": "jobs",
+      "detail": "Application where you can buy food and necessities",
+      "routeName": "ebay",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Moov",
+      "icons": "/html/static/img/icons/moov.png",
+      "detail": "Car rental",
+      "categori": "jobs",
+      "routeName": "rentcar",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Car Seller",
+      "icons": "/html/static/img/icons/carsales.png",
+      "detail": "Used car buying and selling application",
+      "routeName": "ikinciel",
+      "categori": "jobs",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Calculator",
+      "icons": "/html/static/img/icons/calculator.png",
+      "detail": "Calculator app",
+      "categori": "mix",
+      "routeName": "calcu",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Taxi",
+      "icons": "/html/static/img/icons/taxijob.png",
+      "detail": "Taxi App",
+      "categori": "jobs",
+      "routeName": "taxi",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Tinder",
+      "icons": "/html/static/img/icons/tinder2.png",
+      "detail": "Flirt, chat and find your match! Easy way to meet new people",
+      "categori": "social",
+      "routeName": "tindersc",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "9Gag",
+      "icons": "/html/static/img/icons/9gag.png",
+      "categori": "social",
+      "detail": "Fun photos and videos",
+      "routeName": "9gag",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "Zedge",
+      "icons": "/html/static/img/icons/zedge.png",
+      "detail": "Custom wallpaper and Ringtone",
+      "categori": "mix",
+      "routeName": "zedge",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": true
+    },
+    {
+      "name": "House",
+      "icons": "/html/static/img/icons/home.png",
+      "detail": "Qb Home",
+      "categori": "mix",
+      "routeName": "qbhouse",
+      "blockedjobs": [],
+      "allowjob": [],
+      "show": false
+    },
+    {
+      "name": "Business",
+      "icons": "/html/static/img/icons/business.png",
+      "detail": "Businnes",
+      "categori": "jobs",
+      "routeName": "bhome",
+      "blockedjobs": [{
+        "bus": "bus",
+        "judge": "judge",
+        "lawyer": "lawyer",
+        "reporter": "reporter",
+        "trucker": "trucker",
+        "tow": "tow",
+        "garbage": "garbage",
+        "vineyard": "vineyard",
+        "hotdog": "hotdog"
+      }],
+      "allowjob": [],
+      "show": false
+    }
+  ]
+}

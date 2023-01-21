@@ -1,0 +1,36 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Radio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/fontawesome.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="radio">
+            <img src="./img/radio.png" alt="">
+            <div class="ana-ekran">
+                <div class="top-menu">
+                    <i class="fas fa-signal"></i>
+                    <div class="top-menu-vol">VOL: 100%</div>
+                    <i class="fas fa-battery-three-quarters"></i>
+                </div>
+                <div class="mid-menu">
+                    <input type="number" id="channel-input" placeholder="000">
+                    <div class="mid-menu-i"><i class="fas fa-satellite-dish" min="1" data-toggle="tooltip" title="Connect" id="connect"></i></div>
+                </div>
+                <div class="bottom-menu">
+                    <div class="leave-channel" data-toggle="tooltip" title="Leave" id="leave"><i class="fas fa-power-off"></i></div>
+                    <div class="audio-settings">
+                        <div data-toggle="tooltip" title="Volume Up" id="volup"><i class="fas fa-volume-up"></i></div>
+                        <div data-toggle="tooltip" title="Volume Down" id="voldown"><i class="fas fa-volume-down"></i></div>
+                        <div data-toggle="tooltip" title="Volume Mute/Unmute" id="mute"><i class="fas fa-volume-mute" ></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>
